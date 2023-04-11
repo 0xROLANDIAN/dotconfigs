@@ -8,16 +8,18 @@ Includes the followihg
 
 ### LSP Zero
 https://github.com/VonHeikemen/lsp-zero.nvim/blob/v2.x/doc/md/tutorial.md
-https://github.com/LuaLS/lua-language-server/wiki/Formatter
-* Mason
 
-### The rest
-* Lazy vim // Plugin manager
-* Mason
-* CMP // Autocompletion
-* null-ls-vim // Prettier formatting
-* Prettier // Typescript / JS formatting
-* Telescope // finding files rip-grep
+https://github.com/LuaLS/lua-language-server/wiki/Formatter
+
+
+### Included
+* lazy vim // Plugin manager
+* mason // package manager
+* CMP // autocompletion
+* null-ls-vim // prettier formatting
+* prettier // Typescript / JS formatting
+* telescope // finding files rip-grep
+* vim fugitive
 * Vim legacy wrapped in vim.cmd (to be migrated)
 
 ```
