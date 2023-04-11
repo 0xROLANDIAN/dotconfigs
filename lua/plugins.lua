@@ -47,33 +47,24 @@ return {
 {'tpope/vim-fugitive'},
 
 --RipGrep
-{'BurntSushi/ripgrep'}
+{'BurntSushi/ripgrep'},
+
+--Markdownpreview
+{
+"iamcco/markdown-preview.nvim",
+event = "BufRead",
+build = function()
+vim.fn["mkdp#util#install"]()
+end,
+},
 
 }
 
--- Try these again sometime
--- 'nvim-lua/popup.nvim'},
--- 'nvim-lua/plenary.nvim'},
--- 'nvim-telescope/telescope.nvim'},
--- 'nvim-telescope/telescope-fzy-native.nvim'},
-
 ---- Keep as a reference for a while
--- -- 'iamcco/markdown-preview.nvim'}, { 'do': { -> mkdp#util#install() }, 'for': ['markdown'}, 'vim-plug']}
--- {'stephpy/vim-yaml'},
--- {'pedrohdz/vim-yaml-folds'},
--- {'neoclide/coc-vimtex'},
--- {'mracos/mermaid.vim'},
 -- {'stephpy/vim-php-cs-fixer'},
---'neoclide/coc.nvim'}, '{'branch': 'release'}'},
 -- {'conornewton/vim-latex-preview'},
 -- {'Vimwiki/Vimwiki'},
--- {'neovim/nvim-lspconfig'
 -- {'altercation/vim-colors-solarized'},
 -- 'scrooloose/nerdtree'},
 -- 'Yggdroot/indentLine'},
--- 'nvim-lua/popup.nvim'},
--- 'nvim-lua/plenary.nvim'},
--- 'nvim-telescope/telescope.nvim'},
--- 'nvim-telescope/telescope-fzy-native.nvim'},
--- 'rafcamlet/nvim-luapad'},
 

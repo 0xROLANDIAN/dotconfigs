@@ -169,19 +169,7 @@ vim.cmd [[
   let g:airline#extensions#tmuxline#enabled = 1
 ]]
 
-
---  autocomplete
--- mapping = {
---   ['<CR>'] = cmp.mapping.confirm({select = false}),
--- }
--- vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
--- local cmp = require('cmp')
--- local luasnip = require('luasnip')
--- local select_opts = {behavior = cmp.SelectBehavior.Select}
--- 
--- cmp.setup({
--- 
--- })
+-- Keep around in case I want to add list characters at any point
 
 -- vim.opt.listchars = {
 --  eol = '⤶',
