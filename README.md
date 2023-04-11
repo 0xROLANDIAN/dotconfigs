@@ -8,6 +8,7 @@ Includes the followihg
 
 ### LSP Zero
 https://github.com/VonHeikemen/lsp-zero.nvim/blob/v2.x/doc/md/tutorial.md
+
 https://github.com/LuaLS/lua-language-server/wiki/Formatter
 * Mason
 
