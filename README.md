@@ -20,12 +20,15 @@ https://github.com/LuaLS/lua-language-server/wiki/Formatter
 * prettier // Typescript / JS formatting
 * telescope // finding files rip-grep
 * vim fugitive
-* Vim legacy wrapped in vim.cmd (to be migrated)
+* Vim legacy commands wrapped in vim.cmd (to be migrated)
 
 ```
 ├── init.lua
 └── lua
     └── plugins.lua
 ```
-
-
+### Luarocks macOS 
+#### macports
+`xcode-select --install`
+`sudo xcodebuild -license`
+`sudo port install luarocks`
